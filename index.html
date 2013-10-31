@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>&lt;love-heart&gt;</title>
+
+  <!-- Importing Web Component's Polyfill -->
+  <script src="bower_components/polymer/polymer.min.js"></script>
+  <script>
+    if (!window.Polymer) {
+      var script = document.createElement('script');
+      script.src = 'http://www.polymer-project.org/polymer.min.js?20131025';
+      document.head.appendChild(script);
+    }
+  </script>
+
+  <!-- Importing Custom Elements -->
+  <link rel="import" href="love-heart.html">
+
+  <style>
+    .red {
+      color: rgb(201,70,59);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <p>Made with <love-heart></love-heart> by Jan Antala</p>
+    <p>2013 Licensed under MIT</p>
+  </div>
+</body>
+</html>
