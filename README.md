@@ -3,7 +3,7 @@
 Pulsing love heart web component
 
 #### Demo
-Check out https://janantala.github.io/love-heart/
+Check out http://janantala.github.io/love-heart/
 
 ![love](https://raw.github.com/janantala/love-heart/canary/img/love.gif)
 ```html
