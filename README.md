@@ -5,7 +5,7 @@ Pulsing love heart web component
 #### Demo
 Check out http://janantala.github.io/love-heart/
 
-![love](https://raw.github.com/janantala/love-heart/canary/img/love.gif)
+![love](https://raw.github.com/janantala/love-heart/master/img/love.gif)
 ```html
 Made with <love-heart></love-heart> by me
 ```
