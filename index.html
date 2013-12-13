@@ -7,12 +7,13 @@
   <title>&lt;love-heart&gt;</title>
 
   <!-- Importing Web Component's Polyfill -->
-  <script src="bower_components/polymer/polymer.min.js"></script>
   <script>
     if (!window.Polymer) {
-      var script = document.createElement('script');
-      script.src = 'http://www.polymer-project.org/polymer.min.js?20131025';
-      document.head.appendChild(script);
+      var platformScript = document.createElement('script');
+      platformScript.src = 'bower_components/platform/platform.js';
+      var polymerScript = document.createElement('script');
+      polymerScript.src = 'bower_components/polymer/polymer.js';
+      document.head.appendChild(platformScript).appendChild(polymerScript);
     }
   </script>
 
