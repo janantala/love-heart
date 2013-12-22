@@ -28,7 +28,8 @@ Made with <love-heart class="big" ></love-heart> by me
 2. Import Web Components' polyfill:
 
 	```html
-	<script src="bower_components/polymer/polymer.min.js"></script>
+	<script src="bower_components/platform/platform.js"></script>
+	<link rel="import" href="bower_components/polymer/polymer.html">
 	```
 
 3. Import Custom Element:
@@ -42,6 +43,14 @@ Made with <love-heart class="big" ></love-heart> by me
 	```html
 	<love-heart></love-heart>
 	```
+
+## Fallback
+
+You can add love-heart component fallback which is visible before page load is complete:
+
+```html
+Made with <love-heart>love</love-heart> by Jan Antala
+```
 
 # License
 
