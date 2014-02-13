@@ -7,18 +7,12 @@
   <title>&lt;love-heart&gt;</title>
 
   <!-- Importing Web Component's Polyfill -->
-  <script>
-    if (!window.Polymer) {
-      var platformScript = document.createElement('script');
-      platformScript.src = 'bower_components/platform/platform.js';
-      var polymerScript = document.createElement('script');
-      polymerScript.src = 'bower_components/polymer/polymer.js';
-      document.head.appendChild(platformScript).appendChild(polymerScript);
-    }
-  </script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.1.4/platform.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.1.4/polymer.js"></script>
 
   <!-- Importing Custom Elements -->
   <link rel="import" href="love-heart.html">
+  
   <link href='http://fonts.googleapis.com/css?family=Titillium+Web:200,300' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
 
