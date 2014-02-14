@@ -1,6 +1,6 @@
 {
   "name": "love-heart",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "authors": [
     "Jan Antala <hello@janantala.com>"
   ],
@@ -23,6 +23,6 @@
     "tests"
   ],
   "dependencies": {
-    "polymer": "~0.1.0"
+    "polymer": "~0.1.4"
   }
 }
