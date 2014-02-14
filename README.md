@@ -28,8 +28,8 @@ Made with <love-heart class="big" ></love-heart> by me
 2. Import Web Components' polyfill:
 
 	```html
-	<script src="bower_components/platform/platform.js"></script>
-	<link rel="import" href="bower_components/polymer/polymer.html">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.1.4/platform.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.1.4/polymer.js"></script>
 	```
 
 3. Import Custom Element:
