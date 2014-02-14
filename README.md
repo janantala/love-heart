@@ -56,4 +56,4 @@ Made with <love-heart>love</love-heart> by Jan Antala
 
 The MIT License
 
-Copyright (c) 2013 [Jan Antala](http://www.janantala.com)
+Copyright (c) 2014 [Jan Antala](http://www.janantala.com)
