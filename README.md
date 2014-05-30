@@ -15,7 +15,6 @@ Made with <love-heart></love-heart> by me
 ```css
 .blue { color: blue; }
 .big { font-size: 3.4em; }
-
 ```
 
 ```html
