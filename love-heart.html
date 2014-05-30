@@ -3,6 +3,28 @@
 <template>
 
   <style>
+    @-webkit-keyframes pulsate {
+      to {
+        -webkit-transform: scale(1.4);
+        transform: scale(1.4);
+      }
+    }
+
+    @-moz-keyframes pulsate {
+      to {
+        -moz-transform: scale(1.4);
+        transform: scale(1.4);
+      }
+    }
+
+    @keyframes pulsate {
+      to {
+        -webkit-transform: scale(1.4);
+        -moz-transform: scale(1.4);
+        transform: scale(1.4);
+      }
+    }
+
     :host {
       display: inline-block;
       position: relative;
@@ -12,19 +34,9 @@
       -webkit-transform: scale(0.9);
       -moz-transform: scale(0.9);
       transform: scale(0.9);
-      -webkit-animation: love 0.5s infinite linear alternate-reverse;
-      -moz-animation: love 0.5s infinite linear alternate-reverse;
-      animation: love 0.5s infinite linear alternate-reverse;
-    }
-
-    @-webkit-keyframes love {
-      to {-webkit-transform: scale(1.4);}
-    }
-    @-moz-keyframes love {
-      to {-moz-transform: scale(1.4);}
-    }
-    @keyframes love {
-      to {transform: scale(1.4);}
+      -webkit-animation: pulsate 0.5s infinite linear alternate-reverse;
+      -moz-animation: pulsate 0.5s infinite linear alternate-reverse;
+      animation: pulsate 0.5s infinite linear alternate-reverse;
     }
   </style>
 
