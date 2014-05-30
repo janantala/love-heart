@@ -1,4 +1,4 @@
-# &lt;love-heart&gt;
+# &lt;love-heart&gt; v0.2.0
 
 Pulsing love heart web component
 
@@ -12,9 +12,15 @@ Made with <love-heart></love-heart> by me
 
 ### Apply your own CSS:
 
+```css
+.blue { color: blue; }
+.big { font-size: 3.4em; }
+
+```
+
 ```html
-Made with <love-heart class="blue" ></love-heart> by me
-Made with <love-heart class="big" ></love-heart> by me
+Made with <love-heart class="blue"></love-heart> by me
+Made with <love-heart class="big"></love-heart> by me
 ```
 
 # Usage
@@ -28,8 +34,8 @@ Made with <love-heart class="big" ></love-heart> by me
 2. Import Web Components' polyfill:
 
 	```html
-	<script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.1.4/platform.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.1.4/polymer.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.1/platform.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.1/polymer.js"></script>
 	```
 
 3. Import Custom Element:
