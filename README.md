@@ -1,4 +1,4 @@
-# &lt;love-heart&gt; v0.2.0
+# &lt;love-heart&gt; v0.3.0
 
 Pulsing love heart web component
 
