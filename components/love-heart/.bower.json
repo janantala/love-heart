@@ -1,0 +1,41 @@
+{
+  "name": "love-heart",
+  "authors": [
+    "Jan Antala <hello@janantala.com>"
+  ],
+  "description": "Pulsing love heart web component",
+  "keywords": [
+    "love",
+    "heart",
+    "web-components",
+    "polymer"
+  ],
+  "main": "love-heart.html",
+  "license": "MIT",
+  "homepage": "https://github.com/janantala/love-heart",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "img",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.1.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  },
+  "_release": "0c8a9a8988",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "0c8a9a8988776e47d1a7f59928fed012e1c1c652"
+  },
+  "_source": "git://github.com/oscarmcm/love-heart.git",
+  "_target": "master",
+  "_originalSource": "oscarmcm/love-heart",
+  "_direct": true
+}
