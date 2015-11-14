@@ -1,4 +1,4 @@
-# &lt;love-heart&gt; v0.3.0
+# &lt;love-heart&gt; v0.4.0
 
 Pulsing love heart web component
 
@@ -7,41 +7,41 @@ Pulsing love heart web component
 Made with <love-heart></love-heart> by me
 ```
 
-#### Demo
-Check out http://janantala.github.io/love-heart/ or http://customelements.io/
+## Dependencies
 
-##### Our partners 
-<a href="http://customelements.io/"><img src="http://customelements.io/img/profile-200.jpg" height="50px"/></a>
-&nbsp;<a href="http://customelements.io/">customelements.io</a>
+Element dependencies are managed via [Bower](http://bower.io/). You can
+install that via:
 
-# Usage
+    npm install -g bower
+
+Then, go ahead and download the element's dependencies:
+
+    bower install
+
+## Demo
+[Check it live!](http://janantala.github.io/love-heart/)
+
+## Usage
 
 1. Install love heart component:
 
+  ```sh
+  $ bower install love-heart
   ```
-  ❯ bower install love-heart
-  ```
 
-2. Import Web Components' polyfill:
-
-	```html
-	<script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.1/platform.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.1/polymer.js"></script>
-	```
-
-3. Import Custom Element:
+2. Import Custom Element:
 
 	```html
 	<link rel="import" href="bower_components/love-heart/love-heart.html">
 	```
 
-4. Start using it!
+3. Start using it!
 
 	```html
 	<love-heart></love-heart>
 	```
 
-### Apply your own CSS:
+## Apply your own CSS:
 
 ```css
 .blue { color: blue; }
@@ -60,9 +60,33 @@ You can add love-heart component fallback which is visible before page load is c
 ```html
 Made with <love-heart>love</love-heart> by Jan Antala
 ```
+## Development
+
+In order to run it locally you'll need to fetch some dependencies and a basic server setup.
+
+    npm install -g bower polyserve
+
+Install local dependencies
+    
+    bower install
+
+And you can run it via:
+
+    polyserve
+
+Once running, you can preview your element at
+`http://localhost:8080/components/love-heart/`, where `love-heart` is the name of the directory containing it.
+
+## Contributing
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
 
 # License
 
 The MIT License
 
-Copyright (c) 2014 [Jan Antala](http://www.janantala.com)
+Copyright (c) 2015 [Jan Antala](http://www.janantala.com)

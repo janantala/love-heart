@@ -1,7 +1,19 @@
-<polymer-element name="love-heart">
+<link rel="import" href="../polymer/polymer.html">
 
-<template>
+<!--
+Pulsing love heart web component.
 
+Example:
+
+    <love-heart></love-heart>
+
+@group Seed Elements
+@element love-heart
+@demo demo/index.html
+@hero hero.svg
+-->
+
+<dom-module id="love-heart">
   <style>
     @-webkit-keyframes pulsate {
       to {
@@ -39,11 +51,11 @@
       animation: pulsate 0.5s infinite linear alternate-reverse;
     }
   </style>
+  <template>
 
   ♥
 </template>
-
-<script>
-  Polymer('love-heart', {});
-</script>
-</polymer-element>
+  <script>
+    Polymer({ is: 'love-heart' });
+  </script>
+</dom-module>
